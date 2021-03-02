@@ -147,3 +147,20 @@ a {
     right: 0;
     top: 0;
 }
+.about__inner {
+    padding: 150px 0 0;
+    display: flex;
+    justify-content: space-between;
+    font-size: 24px;
+    line-height: 34px;
+    font-weight: 500;
+}
+.about__title {
+    font-size: 16px;
+    line-height: 23px;
+}
+.about__text {
+    max-width: 600px;
+    padding: 0;
+    margin: 0;
+}
