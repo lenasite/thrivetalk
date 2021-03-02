@@ -35,6 +35,10 @@ body {
     font-weight: 400;
     color: #22356F;
 }
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+}
 a {
     color: #22356F;
     text-decoration: none;
@@ -76,4 +80,38 @@ a {
     color: #fff;
     text-align: center;
     line-height: 50px;
+    z-index: 10;
+}
+.header__bottom {
+    position: relative;
+    padding-top: 175px;
+}
+.header__bottom-inner {
+    max-width: 500px;
+}
+.header__bottom-logo {
+    display: block;
+    margin-bottom: 25px;
+}
+.header__title {
+    font-size: 48px;
+    line-height: 53px;
+    margin-bottom: 75px;
+}
+.header__text {
+    font-size: 24px;
+    line-height: 42px;
+    margin-bottom: 75px;
+}
+.header__bottom-btn {
+    background-color: #F9B640;
+    color: #fff;
+    font-size: 16px;
+    line-height: 23px;  
+    padding: 10px 30px;
+}
+.header__image {
+    position: absolute;
+    top: 0;
+    right: 0;
 }
